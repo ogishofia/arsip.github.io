@@ -1,0 +1,262 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.site-headers{
+    width: 100%
+    height:100vh;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+nav{
+    width: 100%; 
+    height: 100px;
+    color: #fff;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.menu{
+    width: 50%;
+    height: 100px;
+}
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li{
+    display: block;
+    list-style: none;
+    font-size: 12px;s
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.menu ul li a
+{
+
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    padding-right:.5em;
+    color: white;
+}
+
+section{
+    display: flex;
+
+}
+
+.leftside{
+    width: 45%; 
+    height: auto; 
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.leftside img {
+    width: 600px;
+    height: 500px;
+}
+
+.rightside{
+    width: 55%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px;
+
+}
+
+.rightside h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.rightside p{
+    font-size: 1.1rem;
+    padding: 30px 0;
+}
+
+.rightside button{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    border-radius:   4px; padding: 20px 35px;
+}
+
+.rightside button:hover{
+    background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+
+#text{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+td{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    align-content: center;
+}
+
+#button_login{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    border-radius:   4px; 
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: 1px solid;
+    margin-top: 20px;
+
+}
+#button_login:hover{
+    background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+#button_search{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    border-radius:   4px; 
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 1px solid;
+    /*margin-top: 20px;*/
+    margin-left: 5px;
+
+}
+#button_search:hover{
+    background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+#input_search{
+    margin-right: 2px;
+}
+#table{
+    margin-top: 20px;
+    margin-left: 150px; 
+}
+
+.menu_a{
+    width: 50%;
+    height: 100px;
+}
+.menu_a ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_a ul li{
+    display: block;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.menu_a ul li a
+{
+
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    padding-right:.5em;
+    color: white;
+}
+
+#text_a{
+    margin: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+#table_a{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    color: black;
+}
+#font{
+    font-size: 12px;
+    color: black;
+}
+#button_a{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    border-radius:   4px; 
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left : 50px;
+}
+#button_a:hover{
+    background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+#batas{
+    margin: 20px;
+   /*background: #eaeaea;*/
+    /*width: 55%;*/
+    height: 300px;
+    color: white;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+#textbox{
+    border: 1px solid;
+}
+
+#btn_edit{
+    font-size: 15px;
+    background: #1dbab4;
+    color: white;
+}
+
+#btn_delete{
+    font-size: 15px;
+    background: #fc5226;
+    color: white;
+}
+
+.coba{
+    margin-left: 30px;
+}
